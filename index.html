@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Northland Store Locator</title>
+</head>
+<body>
+    <div id="bkrifbi-store-locator">
+        <header>
+            <h1>northland</h1>
+            <ul>
+                <li>Brillen</li>
+                <li>Sonnenbrillen</li>
+                <li>Kontaktlinsen</li>
+                <li>Filialen</li>
+                <li>Über Northland</li>
+            </ul>
+            <div class="searchfield">
+                <input type="text" placeholder="Suchbegriff eingeben...">
+                <img class="search-icon" src="./assets/search-icon.png" alt="Lupe">
+            </div>
+            <img class="hamburger-menu" src="./assets/hamburger-menu.png" alt="Hamburger Menu">
+        </header>
+        
+        <div class="searcharea">
+            <div class="searchbar" id="searchbar">
+                <input type="text" name="search-param" class="search-param" id="autocomplete" placeholder="PLZ/Straße/Stadt">
+                <img class="search-icon" id="search-icon" src="./assets/search-icon.png" alt="Lupe">
+                <img class="nav-icon" src="./assets/current-pos.png" alt="Navigationssymbol" onclick="requestUserLoc()">
+                <img class="close-icon hidden" id="close-icon" src="./assets/close-icon.png" alt="Closing Cross" onclick="deleteInput()">
+            </div>
+        </div>
+
+        <div id="storelist" class="storelist">
+            <p class="placeholder-text">Bitte geben Sie eine Adresse ein, um Filialen in Ihrer Nähe zu sehen.</p>
+        </div>
+
+        <div id="map" class="map hidden">
+            <img class="placeholder-img" src="./assets/map-placeholder.png" alt="Europa Karte">
+        </div>
+
+        <div class="view-toggle" id="view-toggle">
+            <button class="list-view active" id="list-view" value="list" onclick="toggleView()">
+                <img src="./assets/list-icon.png" alt="Listensymbol">
+                <p>Liste</p>
+            </button>
+            <button class="map-view" id="map-view" value="map" onclick="toggleView()">
+                <img src="./assets/map-icon.svg" alt="Kartensymbol">
+                <p>Karte</p>
+            </button>
+        </div>
+    </div>
+  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTXU-91FVxP0j-BEokrnLRBhzdbubtZug&libraries=places&callback=initAutocomplete" async></script>
+    <script src="main.js" defer></script>
+</body>
+</html>

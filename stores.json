@@ -1,0 +1,178 @@
+{"stores": [
+    {
+        "id": 1,
+        "name": "Northland",
+        "lat": 52.352402,
+        "lon": 8.017620,
+        "openingHours": "10:00-18:00",
+        "adress": "Ansgarstr. 4, 49134 Wallenhorst"
+    },
+    {
+        "id": 2,
+        "name": "Northland Prager Platz",
+        "lat": 52.467730,
+        "lon": 13.715500,
+        "openingHours": "10:00-18:00",
+        "adress": "Prager Straße 117, 10779 Berlin"
+    },
+    {
+        "id": 3,
+        "name": "Northland Ku'damm",
+        "lat": 52.500010,
+        "lon": 13.324260,
+        "openingHours": "10:00-20:00",
+        "adress": "Lietzenburger Str., 10789 Berlin"
+    },
+    {
+        "id": 4,
+        "name": "Northland Regierungsviertel",
+        "lat": 52.511190,
+        "lon": 13.387000,
+        "openingHours": "10:00-18:00",
+        "adress": "Kronenstraße 60-75, 10117 Berlin"
+    },
+    {
+        "id": 5,
+        "name": "Northland Charlottenburg",
+        "lat": 52.502121,
+        "lon": 13.324690,
+        "openingHours": "10:00-18:00",
+        "adress": "Kurfürstendamm 211, 10719 Berlin"
+    },
+    {
+        "id": 6,
+        "name": "Northland Hamburg",
+        "lat": 53.555641,
+        "lon": 10.017680,
+        "openingHours": "10:00-18:00",
+        "adress": "Steindamm 94, 20099 Hamburg"
+    },
+    {
+        "id": 7,
+        "name": "Northland München",
+        "lat": 48.166240,
+        "lon": 11.586670,
+        "openingHours": "10:00-18:00",
+        "adress": "Leopoldstraße 116, 80802 München"
+    },
+    {
+        "id": 8,
+        "name": "Northland Zürich City",
+        "lat": 47.378560,
+        "lon": 8.520540,
+        "openingHours": "10:00-18:00",
+        "adress": "Herman-Greulich-Strasse 56, 8004 Zürich"
+    },
+    {
+        "id": 9,
+        "name": "Northland Zürich Altstetten",
+        "lat": 47.383230,
+        "lon": 8.488970,
+        "openingHours": "12:00-18:00",
+        "adress": "Luggwegstrasse 125, 8048 Zürich"
+    },
+    {
+        "id": 10,
+        "name": "Northland Zürich Küsnacht",
+        "lat": 47.318972,
+        "lon": 8.581609,
+        "openingHours": "12:00-18:00",
+        "adress": "Zürichstraße 174, 8700 Zürich"
+    },
+    {
+        "id": 11,
+        "name": "Northland Bern",
+        "lat": 46.954280,
+        "lon": 7.431190,
+        "openingHours": "10:00-18:00",
+        "adress": "Länggassstrasse 44, 3012 Bern"
+    },
+    {
+        "id": 12,
+        "name": "Northland Nürnberg",
+        "lat": 49.440225,
+        "lon": 11.081371,
+        "openingHours": "10:00-18:00",
+        "adress": "Wölckernstraße 6, 90459 Nürnberg"
+    },
+    {
+        "id": 13,
+        "name": "Northland Berliner Platz",
+        "lat": 48.777230,
+        "lon": 9.168820,
+        "openingHours": "10:00-18:00",
+        "adress": "Fritz-Elsas-Straße 50, 70174 Stuttgart"
+    },
+    {
+        "id": 14,
+        "name": "Northland Stuttgart",
+        "lat": 48.798341,
+        "lon": 9.191767,
+        "openingHours": "10:00-18:00",
+        "adress": "Varnbülerstraße 6, 70191 Stuttgart"
+    },
+    {
+        "id": 15,
+        "name": "Northland Düsseldorf Schloßstraße",
+        "lat": 51.240107,
+        "lon": 6.789837,
+        "openingHours": "10:00-18:00",
+        "adress": "Schloßstraße 39, 40477 Düsseldorf"
+    },
+    {
+        "id": 16,
+        "name": "Northland Düsseldorf Stadtmitte",
+        "lat": 51.222880,
+        "lon": 6.786630,
+        "openingHours": "10:00-18:00",
+        "adress": "Friedrich-Ebert-Straße 2, 40210 Düsseldorf"
+    },
+    {
+        "id": 17,
+        "name": "Northland Köln Deutz",
+        "lat": 50.934968,
+        "lon": 6.975826,
+        "openingHours": "10:00-18:00",
+        "adress": "Helenenwallstraße 11, 50679 Köln"
+    },
+    {
+        "id": 18,
+        "name": "Northland Köln Innenstadt",
+        "lat": 50.937538,
+        "lon": 6.945646,
+        "openingHours": "10:00-18:00",
+        "adress": "Gertrudenstraße, 50667 Köln"
+    },
+    {
+        "id": 19,
+        "name": "Northland Köln Westend",
+        "lat": 50.968311,
+        "lon": 6.890190,
+        "openingHours": "12:00-18:00",
+        "adress": "Mathias-Brüggen-Straße, 50827 Köln"
+    },
+    {
+        "id": 20,
+        "name": "Northland St. Gallen",
+        "lat": 47.424300,
+        "lon": 9.375970,
+        "openingHours": "12:00-16:00",
+        "adress": "Multergasse 11, 9000 St. Gallen"
+    },
+    {
+        "id": 21,
+        "name": "Northland Winterthur",
+        "lat": 47.499638,
+        "lon": 8.728612,
+        "openingHours": "12:00-16:00",
+        "adress": "Marktgasse 37, 8400 Winterthur"
+    },
+    {
+        "id": 22,
+        "name": "Northland Genf",
+        "lat": 46.203736,
+        "lon": 6.144437,
+        "openingHours": "10:00-18:00",
+        "adress": "Rue de la Confédération 5, 1204 Genève"
+    }
+]}
